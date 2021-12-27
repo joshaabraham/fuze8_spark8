@@ -1,0 +1,40 @@
+.main_container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100.0000018631%;
+    margin-top: 10px;
+    margin-bottom: 140px;
+    padding: 10px 0px;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  
+  .container_left {
+    width: 35%;
+    height: 100px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    background-color: #c58f8f;
+  }
+  
+  .container_middle {
+    overflow: visible;
+    width: 30%;
+    background-color: #fff2d8;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+  
+  .container_right {
+    width: 25%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    background-color: #b6e3ff;
+  }
