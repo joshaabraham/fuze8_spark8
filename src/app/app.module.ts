@@ -58,7 +58,7 @@ import { DataModule } from './Modules/data/data.module';
     bootstrap   : [
         AppComponent
     ],
-    providers:[
+    providers: [
       //  {provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true},
     ]
 })

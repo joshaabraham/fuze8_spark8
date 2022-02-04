@@ -8,7 +8,9 @@ import {PagesComponent } from '../pages/pages.component'
  */
 
 const routes: Routes = [
-  { path: 'auth', loadChildren: () => import('./authentication/authentication.module').then(m => m.AuthenticationModule) },
+ // { path: '', loadChildren: () => import('./authentication/authentication.module').then(m => m.AuthenticationModule) },
+    { path: 'login', redirectTo: '/auth/login', pathMatch: 'full'},
+    { path: 'auth', loadChildren: () => import('./authentication/authentication.module').then(m => m.AuthenticationModule) },
  // { path: '**', component: PageNotFoundComponent },
   // { path: '', component: PagesComponent,
   //   children:[

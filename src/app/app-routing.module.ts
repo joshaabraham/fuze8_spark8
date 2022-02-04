@@ -1,14 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 // import { PageNotFoundComponent } from './pages';
-import { } from '../app/main/pages/pages.component'
+import { } from '../app/main/pages/pages.component';
 
 
 const routes: Routes = [
-  { path: 'auth', loadChildren: () => import('./main/pages/authentication/authentication.module').then(m => m.AuthenticationModule) },
+  //{ path: '', loadChildren: () => import('./main/pages/authentication/authentication.module').then(m => m.AuthenticationModule) },
+    { path: '', redirectTo: '/pages', pathMatch: 'full'},
   { path: 'pages', loadChildren: () => import('./main/pages/pages.module').then(m => m.PagesModule) },
   { path: 'apps', loadChildren: () => import('./main/apps/apps.module').then(m => m.AppsModule) },
- // { path: '**', component: PageNotFoundComponent }
+ // { path: '', loadChildren: () => import('./main/pages/pages.module').then(m => m.PagesModule)  }
 ];
 
 
