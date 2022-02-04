@@ -11,6 +11,8 @@ import { MainConteneurComponent } from './components/main-conteneur/main-contene
 import { FlagAlertComponent } from './components/flag-alert/flag-alert.component';
 import { SportSearchBlockComponent } from './components/sport-search-block/sport-search-block.component';
 import { DialogConteneurComponent } from './components/dialog-conteneur/dialog-conteneur.component';
+import { HeaderCommentBlockComponent } from './components/comment-block/header-comment-block/header-comment-block.component';
+import { MainImageCommentBlockComponent } from './components/comment-block/main-image-comment-block/main-image-comment-block.component';
 
 @NgModule({
     imports: [
@@ -27,7 +29,7 @@ import { DialogConteneurComponent } from './components/dialog-conteneur/dialog-c
 
         HorizontalLayout1Module
     ],
-    declarations: [InvitationCardComponent, CommentBlockComponent, MainConteneurComponent, FlagAlertComponent, SportSearchBlockComponent, DialogConteneurComponent]
+    declarations: [InvitationCardComponent, CommentBlockComponent, MainConteneurComponent, FlagAlertComponent, SportSearchBlockComponent, DialogConteneurComponent, HeaderCommentBlockComponent, MainImageCommentBlockComponent]
 })
 export class LayoutModule
 {
