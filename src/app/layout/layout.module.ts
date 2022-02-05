@@ -13,6 +13,7 @@ import { SportSearchBlockComponent } from './components/sport-search-block/sport
 import { DialogConteneurComponent } from './components/dialog-conteneur/dialog-conteneur.component';
 import { HeaderCommentBlockComponent } from './components/comment-block/header-comment-block/header-comment-block.component';
 import { MainImageCommentBlockComponent } from './components/comment-block/main-image-comment-block/main-image-comment-block.component';
+import { CommentSectionBlockComponent } from './components/comment-block/comment-section-block/comment-section-block.component';
 
 @NgModule({
     imports: [
@@ -29,7 +30,7 @@ import { MainImageCommentBlockComponent } from './components/comment-block/main-
 
         HorizontalLayout1Module
     ],
-    declarations: [InvitationCardComponent, CommentBlockComponent, MainConteneurComponent, FlagAlertComponent, SportSearchBlockComponent, DialogConteneurComponent, HeaderCommentBlockComponent, MainImageCommentBlockComponent]
+    declarations: [InvitationCardComponent, CommentBlockComponent, MainConteneurComponent, FlagAlertComponent, SportSearchBlockComponent, DialogConteneurComponent, HeaderCommentBlockComponent, MainImageCommentBlockComponent, CommentSectionBlockComponent]
 })
 export class LayoutModule
 {
