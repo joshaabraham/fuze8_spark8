@@ -120,8 +120,7 @@
     -ms-flex-align: start;
     align-items: flex-start;
   }
-
-    
+ 
   .comment_text_block {
     margin: 10px;
     padding: 10px;
@@ -133,8 +132,6 @@
     background-color: #e2e2e2;
     font-weight: 400;
   }
-  
-
   
   .list_of_comments {
     display: block;
@@ -171,7 +168,6 @@
     text-align: center;
   }
 
-  
   .button {
     width: 100%;
     max-height: 100%;
@@ -185,4 +181,51 @@
   .button-3 {
     width: 100%;
   }
+  
+  .comment_input {
+    width: 100%;
+    max-width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #e2e2e2;
+  }
+  
+  .image-6 {
+    margin: 10px 20px 20px;
+    border-radius: 50%;
+  }
+ 
+  .form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 20px;
+  }
+
+    
+  .div-block-9 {
+    border: 1px none #000;
+  }
+
+
+  .div-block-10 {
+    border: 1px none #000;
+  }
+  
+
+  .form-block {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  .submit-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+  }
+  
   
